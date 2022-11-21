@@ -1,12 +1,14 @@
-style
 .body {
     color: white;
     margin: 0px;
     padding: 0px;
-    background: url(media/bg1.jpg) ;
+    /* background:url(/media/bg1.jpg); */
+    background: no-repeat center/80% url("../media/bg1.jpg");
     font-family: 'Baloo Da 2', cursive;
     background-repeat: no-repeat;
-    background-size: 1345px 663px;
+    /* background-size: 100vw; */
+    background-size: contain;
+    /* background-size: 1345px 663px; */
 }
 .left{
     position: fixed;
@@ -56,10 +58,7 @@ style
 }
 .navbar li a:hover, .navbar li a.active{
     text-decoration: underline;
-    
-
-
-}
+    }
 .btn{
     margin: 0px 10px;
     background-color: azure;
@@ -74,11 +73,11 @@ style
     background-color: gray;
 
 }
-.container{
-    margin: 20px 790px;
-    padding: 90px;
+.container{ 
+    margin: 70px 780px;
+    padding: 50px;
     width: 30%;
-}
+} 
 .container h1{
     text-align: center;
     
